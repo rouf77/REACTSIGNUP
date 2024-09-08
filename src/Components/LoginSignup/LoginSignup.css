@@ -1,0 +1,196 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background: #030435;
+    padding-bottom: 30px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgb(102, 29, 167);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: rgb(102, 29, 167);
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color: rgb(102, 29, 167);
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: rgb(102, 29, 167);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background: #eaeaea;
+    color: #676767;
+}
+
+
+/* Responsive Styles */
+
+/* Small Screens (Mobile) */
+@media (max-width: 576px) {
+    .container {
+        display: block;
+        width: 80%;
+        margin-top: 10%;
+        padding: 20px;
+        border-radius: 25px;
+
+    }
+
+    .header {
+        margin-top: 20px;
+    }
+
+    .text {
+        font-size: 32px;
+    }
+
+    .underline {
+        width: 40px;
+        height: 4px;
+    }
+
+    .inputs {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .input {
+        width: 100%;
+        height: 60px;
+    }
+
+    .input img {
+        margin: 0 15px;
+    }
+
+    .input input {
+        width: calc(100% - 50px);
+        font-size: 16px;
+    }
+
+    .forgot-password {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .submit-container {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .submit {
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+/* Medium Screens (Tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .text {
+        font-size: 40px;
+    }
+
+    .input {
+        width: 90%;
+    }
+
+    .submit-container {
+        gap: 20px;
+    }
+
+    .submit {
+        width: 180px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+/* Large Screens (Desktops) */
+@media (min-width: 769px) {
+    .container {
+        width: 600px;
+    }
+}
