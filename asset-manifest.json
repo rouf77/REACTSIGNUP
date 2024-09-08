@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactsignup/static/css/main.db5bbb6f.css",
+    "main.js": "/reactsignup/static/js/main.b62e80cb.js",
+    "index.html": "/reactsignup/index.html",
+    "main.db5bbb6f.css.map": "/reactsignup/static/css/main.db5bbb6f.css.map",
+    "main.b62e80cb.js.map": "/reactsignup/static/js/main.b62e80cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db5bbb6f.css",
+    "static/js/main.b62e80cb.js"
+  ]
+}
